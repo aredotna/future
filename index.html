@@ -1,421 +1,338 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/2001/xhtml" xml:lang="en" lang="en">
+  <head>
 
-<head>
-<META NAME="Description" CONTENT="">
-<META NAME="Keywords" tags="">
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:url" content="http://future.are.na" />
-<meta name="twitter:title" content="Arena" />
-<meta name="twitter:description" content="Work collaboratively to collect and reassemble blocks of information — texts, images, links, files — on Are.na" />
-<meta name="twitter:image" content="http://are.na/images/brand/mark_bw_104x61.png" />
-<meta name="twitter:site" content="@aredotna" />
-<meta name="twitter:creator" content="@aredotna" />
-<meta property="fb:app_id" content="122924607855276" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://future.are.na" />
-<meta property="og:title" content="Arena" />
-<meta property="og:image" content="http://future.are.na/images/arena-slide1-small.jpg" />
-<meta name="viewport" content="width=device-width">
-<title>Arena: Plans + Fundraising 2014</title>
-<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <META NAME="Description" CONTENT="">
+    <META NAME="Keywords" tags="">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="http://future.are.na" />
+    <meta name="twitter:title" content="Arena" />
+    <meta name="twitter:description" content="Work collaboratively to collect and reassemble blocks of information — texts, images, links, files — on Are.na" />
+    <meta name="twitter:image" content="http://are.na/images/brand/mark_bw_104x61.png" />
+    <meta name="twitter:site" content="@aredotna" />
+    <meta name="twitter:creator" content="@aredotna" />
 
-<style type="text/css">
+    <meta property="fb:app_id" content="122924607855276" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://future.are.na" />
+    <meta property="og:title" content="Arena" />
+    <meta property="og:image" content="http://future.are.na/images/arena-slide1-small.jpg" />
+    <meta name="viewport" content="width=device-width">
 
-@font-face {
+    <title>Arena: Plans + Fundraising 2014</title>
+
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+    <style type="text/css">
+    @font-face {
     font-family: 'f';
     src: url('images/f.eot');
     src: url('images/f.eot') format('embedded-opentype'),
-         url('images/f.woff') format('woff'),
-         url('images/f.ttf') format('truetype'),
-         url('images/f.svg#f') format('svg');
-         font-weight: normal;
-}
-
-@font-face {
+    url('images/f.woff') format('woff'),
+    url('images/f.ttf') format('truetype'),
+    url('images/f.svg#f') format('svg');
+    font-weight: normal;
+    }
+    @font-face {
     font-family: 'f';
     src: url('images/fm.eot');
     src: url('images/fm.eot') format('embedded-opentype'),
-         url('images/fm.woff') format('woff'),
-         url('images/fm.ttf') format('truetype'),
-         url('images/fm.svg#fd') format('svg');
-         font-weight: bold;
-}
-
-body {
+    url('images/fm.woff') format('woff'),
+    url('images/fm.ttf') format('truetype'),
+    url('images/fm.svg#fd') format('svg');
+    font-weight: bold;
+    }
+    body {
     font-family: 'f', serif;
     font-size: 19px;
     width: 100%;
     line-height: 31px;
-}
+    }
+    a, a:visited {
+    text-decoration: none;
+    color: #111;
+    border-bottom: 2px solid #111;
+    -webkit-transition:all 0.2s;
+    -moz-transition:all 0.2s;
+    -o-transition:all 0.2s;
+    transition:all 0.2s;
+    }
+    a:hover, a:active {
+    text-decoration: none;
+    border-bottom: 3px solid #fff;
+    -webkit-transition:all 0.2s;
+    -moz-transition:all 0.2s;
+    -o-transition:all 0.2s;
+    transition:all 0.2s;
+    }
+    .container {
+    position: absolute;
+    width: 860px;
+    left: 50%;
+    margin-left: -430px;
+    }
+    .header {
+    font-family: 'f', serif;
+    position: relative;
+    float: left;
+    width: 90%;
+    padding: 5%;
+    height: auto;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 70px;
+    }
+    .logo {
+    width: 200px;
+    margin-left: -38px;
+    }
+    .headline {
+    width: 100%;
+    margin-top: -70px;
+    }
+    .mark {
+    width: 80px;
+    margin-left: 0px;
+    margin-bottom: -36px;
+    text-align: right;
+    }
+    .box1 {
+    position: relative;
+    float: left;
+    width: 90%;
+    padding: 5%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    }
+    .box2 {
+    position: relative;
+    float: left;
+    width: 41%;
+    margin-top: 40px;
+    border: 2px solid rgb(32, 192, 102);
+    padding: 3%;
+    height: 110px;
+    text-align: center;
+    background-color: #E7F3E4;
+    }
+    .box3 {
+    position: relative;
+    float: left;
+    width: 41%;
+    margin-top: 40px;
+    margin-left: 5%;
+    border: 2px solid rgb(32, 192, 102);
+    padding: 3%;
+    height: 110px;
+    text-align: center;
+    background-color: #E7F3E4;
+    }
+    .box4 {
+    position: relative;
+    float: left;
+    width: 93.5%;
+    height: 80px;
+    margin-top: 40px;
+    border: 2px solid rgb(32, 192, 102);
+    padding: 3%;
+    text-align: center;
+    background-color: #E7F3E4;
+    }
+    .box6 {
+    position: relative;
+    float: left;
+    width: 93.5%;
+    height: 110px;
+    margin-top: 40px;
+    margin-bottom: 28px;
+    border: 2px solid rgb(32, 192, 102);
+    padding: 3%;
+    text-align: center;
+    background-color: #E7F3E4;
+    }
+    .box2, .box3, .box4, .box6 {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+    .box2:hover, .box3:hover, .box4:hover, .box6:hover {
+/*    background-color: #F4FAF2;
+    -webkit-transition:all 0.2s;
+    -moz-transition:all 0.2s;
+    -o-transition:all 0.2s;
+    transition:all 0.2s;
+    -moz-box-shadow:    0px 0px 8px 3px #e4e4e4;
+    -webkit-box-shadow: 0px 0px 8px 3px #e4e4e4;
+    box-shadow:         0px 0px 8px 3px #e4e4e4;
+*/
+    }
+    .box5 {
+    position: relative;
+    float: left;
+    width: 90%;
+    padding: 5%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    }
+    .box7 {
+    position: relative;
+    float: left;
+    width: 93.5%;
+    height: 30px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    border-top: 2px solid #6582C0;
+    padding: 3%;
+    text-align: center;
+    background-color: none;
+    }
+    .caption {
+    font-size: 13px;
+    text-align: center;
+    width: 100%;
+    margin-top: -30px;
+    padding-top: 0;
+    z-index: 199;
+    }
+    .color {
+    font-family: 'f', serif;
+    color: rgb(32, 192, 102);
+    font-size: 27px;
+    line-height: 50px;
+    }
+    .small {
+    font-family: 'f', serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgb(60, 148, 106);
+    }
+    .raised {
+    font-size: 27px;
+    line-height: 20px;
+    color: #6582C0;
+    }
+    @media only screen and (max-width: 910px) {
+    .container {
+    width: 91%;
+    left: 4%;
+    margin-left: 0;
+    margin-top: 20px;
+    }
+    body {
+    font-size: 15px;
+    line-height: 24px;
+    }
+    .box2, .box3 {
+    width: 94%;
+    }
+    .box3 {
+    margin-left: 0;
+    }
+    .small {
+    font-size: 12px;
+    line-height: 18px;
+    }
+    .color {
+    font-size: 17px;
+    line-height: 26px;
+    }
+    .header {
+    margin-top: -20px;
+    }
+    .logo {
+    width: 170px;
+    margin-left: -32px;
+    margin-top: -20px;
+    }
+    .headline {
+    margin-top: -40px;
+    }
+    .mark {
+    margin-left: -24px;
+    margin-bottom: -56px;
+    }
+    .caption {
+    font-size: 12px;
+    margin-top: -20px;
+    }
+    }
+    ::-moz-selection{ background: rgb(255, 73, 73); color:#111; text-shadow: none; }
+    ::selection { background: rgb(255, 73, 73); color:#111; text-shadow: none; }
+    </style>
 
-a, a:visited {
-	text-decoration: none;
-	color: #111;
-	border-bottom: 2px solid #111;
-	-webkit-transition:all 0.2s;  
-   	-moz-transition:all 0.2s;  
-   	-o-transition:all 0.2s;  
-   	transition:all 0.2s;
-}
+    <link rel="shortcut icon" href="http://are.na/favicon.ico" type="image/x-icon">
 
-a:hover, a:active {
-	text-decoration: none;
-	border-bottom: 3px solid #fff;
-	-webkit-transition:all 0.2s;  
-   	-moz-transition:all 0.2s;  
-   	-o-transition:all 0.2s;  
-   	transition:all 0.2s;
-}
+    <body>
+      <div class="container">
+        <div class="header">
+          <img class="logo" src="images/arena-logo.svg">
+          <div class="headline">Plans + Fundraising, August 2014<img class="mark" src="images/arena-logo.jpg"></div>
+        </div>
+        <div class="box1">
+          <a href="http://are.na">Arena</a> is a platform for private and collaborative research where you can save links, images, and files as "blocks" and organize them into named "channels." People use Arena to assemble <a target="_blank" href="http://x.are.na/GCQgAyj">references</a> around a topic, collect <a target="_blank" href="http://x.are.na/AoEiwhl">images</a> around a theme, share <a target="_blank" href="http://x.are.na/hjSvQrY">ideas</a> with collaborators, and <a target="_blank" href="http://x.are.na/QoIyTRo">more</a>.
+          <br><br>
+          We built Arena in response to feeling overwhelmed by the mass of information presented to us daily on the Internet. We wanted a tool that could help us collect and sort information as it appears. Arena enables you to build ideas over time using any content you add or come across online. We like to think of Arena as an evolving archive where people collaboratively create new concepts by combining found and original material.
+          <br><br>
+          Over the past two years, the platform has hosted a vibrant community of artists, designers, writers, educators, and researchers. We've studied the dynamics, gathered feedback from our users, and now we're ready to make Arena available to the public.
+          <br><br><br>
+          <img style="padding-top: 0px; padding-bottom: 0px; border-left: 2px solid rgb(255, 73, 73);
+          border-right: 2px solid rgb(255, 73, 73); width: 111%; margin-left: -5.5%; opacity: 0.9; " src="images/arena-slide1-small.jpg">
+          <br><br><br>
+          We are currently retooling and refining the interface, streamlining around its core features. Toward the end of the year, we will introduce an unobtrusive revenue model, enabling Arena to be a sustainable business. Most likely we will offer paid accounts with a suite of premium features while keeping the current experience free.
+          <br><br>
+          <span style="color: rgb(32, 192, 102);"><strike>In order to help us get there, we are raising a small round of funding in the form of rewarded donations. We've set our goal at $10,000, but we will accept any raised amount. We are committed to the project in any scenario. The funds from this campaign will allow us to work full-time through the public launch.</strike>
+          <br><br>
+          <strike>If you are interested in helping Arena grow, please consider making an investment:</strike></span>
+        </div>
+        <br><br>
+          <div class="box4">
+            <span class="color">Thank you for contributing!</span><br>
+            <span class="small">The campaign is now over. We raised $4570 from 28 contributors.</span>
+          </div>
+          <br><br><br>
+        <div class="box5">
+          <span class="color" style="color: #111;">Principles</span><br>
+          &#8226; We aim to build a flexible platform that helps people collect, discover, contextualize, and share information, publicly and privately.<br><br>
+          &#8226; We don't dictate how people can or should use Arena. The platform is designed to support arbitrary applications.<br><br>
+          &#8226; We want Arena to persist for as long as people want to use it. We're committed to building a sustainable business and retaining complete control of the platform.<br><br>
+          &#8226; We take privacy seriously, as well as anonymity for those who want it. We will never share user data without explicit consent and we support users who want to keep their online persona separate from their personal life.<br><br>
+          &#8226; We believe that advertisements are a conflict of interest. Arena will never show ads.<br><br>
+          <img style="padding-top: 0px; padding-bottom: 0px; border-left: 0px;
+          border-right: 0px; width: 120%; margin-left: -10%; opacity: 0.95; margin-bottom: 20px; " src="images/arena-mockup.jpg"><br>
+          <div class="caption">Next version of Arena under development</div><br>
+          <span class="color" style="color: #111;">Case studies</span><br>
+          Arena is regularly adopted by professionals to research and organize projects. Brick-and-mortar shops use it to manage inventory, art institutions use it to curate exhibitions, creative teams use it to share inspiration, and academics use it to collect references. For a sample, see the channel <a href="http://are.na/primer">Primer</a>.<br><br>
+          Our API can be used as a CMS and to experiment with new ways of presenting and interacting with content. Here's a <a target="_blank" href="http://x.are.na/JARkiab">selection</a> of public applications powered by Arena.<br><br>
+          <span class="color" style="color: #111;">Team</span><br>
+          <a target="_blank" href="http://are.na/users/charles-broskoski">Charles Broskoski</a>
+          <span class="small"></span><br>
+          <a target="_blank" href="http://are.na/users/chris-sherron">Chris Sherron</a>
+          <span class="small"></span><br>
+          <a target="_blank" href="http://are.na/users/daniel-pianetti">Daniel Pianetti</a><br>
+          <a target="_blank" href="http://are.na/users/morgan-sutherland">Morgan Sutherland</a>
+          <span class="small"></span><br><br>
+          <span class="color" style="color: #111;">Contact</span><br>
+          Feel free to contact us with any questions, comments, or requests (info@are.na). If you don't have an account, we encourage you to <a href="http://are.na">signup</a> (code: whenitchanged) to try Arena.<br><br>
+          <br>
 
+          <!--
+          <iframe src="//player.vimeo.com/video/69893750?title=0&amp;byline=0&amp;portrait=0&amp;color=000&amp;autoplay=1&amp;loop=1" badge="none" byline="none" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br><br><br><br>
+          -->
 
-.container {
-	position: absolute;
-	width: 860px;
-	left: 50%;
-	margin-left: -430px;
-}
+          <a target="_blank" style="border: none;" href="http://x.are.na/SEmJuHb"><img style="width: 200px; margin-left: 33%;" src="images/arena-signature.jpg"></a>
+          <br><br><br>
+        </div>
+      </div>
 
-.header {
-	font-family: 'f', serif;
-	position: relative;
-	float: left;
-	width: 90%;
-	padding: 5%;
-	height: auto;
-	text-align: left;
-	margin-top: 0px;
-	margin-bottom: 70px;
-}
-
-.logo {
-	width: 200px; 
-	margin-left: -38px;	
-}
-
-.headline {
-	width: 100%; 
-	margin-top: -70px;
-}
-
-.mark {
-	width: 80px; 
-	margin-left: 0px; 
-	margin-bottom: -36px; 
-	text-align: right;
-}
-
-.box1 {
-	position: relative;
-	float: left;
-	width: 90%;
-	padding: 5%;
-	padding-top: 3%;
-	padding-bottom: 2%;
-}
-
-.box2 {
-	position: relative;
-	float: left;
-	width: 41%;
-	margin-top: 40px;
-	border: 2px solid rgb(32, 192, 102);
-	padding: 3%;
-	height: 110px;
-	text-align: center;
-	background-color: #E7F3E4;
-}
-
-.box3 {
-	position: relative;
-	float: left;
-	width: 41%;
-	margin-top: 40px;
-	margin-left: 5%;
-	border: 2px solid rgb(32, 192, 102);
-	padding: 3%;
-	height: 110px;
-	text-align: center;
-	background-color: #E7F3E4;
-}
-
-.box4 {
-	position: relative;
-	float: left;
-	width: 93.5%;
-	height: 110px;
-	margin-top: 40px;
-	border: 2px solid rgb(32, 192, 102);
-	padding: 3%;
-	text-align: center;
-	background-color: #E7F3E4;
-}
-
-.box6 {
-	position: relative;
-	float: left;
-	width: 93.5%;
-	height: 110px;
-	margin-top: 40px;
-	margin-bottom: 28px;
-	border: 2px solid rgb(32, 192, 102);
-	padding: 3%;
-	text-align: center;
-	background-color: #E7F3E4;
-}
-
-.box2, .box3, .box4, .box6 {
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-}
-
-.box2:hover, .box3:hover, .box4:hover, .box6:hover {
-	background-color: #F4FAF2;
-	-webkit-transition:all 0.2s;  
-   	-moz-transition:all 0.2s;  
-   	-o-transition:all 0.2s;  
-   	transition:all 0.2s;
-   	-moz-box-shadow:    0px 0px 8px 3px #e4e4e4;
-  	-webkit-box-shadow: 0px 0px 8px 3px #e4e4e4;
-  	box-shadow:         0px 0px 8px 3px #e4e4e4;
-
-}
-
-.box5 {
-	position: relative;
-	float: left;
-	width: 90%;
-	padding: 5%;
-	padding-top: 3%;
-	padding-bottom: 2%;
-}
-
-.box7 {
-	position: relative;
-	float: left;
-	width: 93.5%;
-	height: 30px;
-	margin-top: 60px;
-	margin-bottom: 40px;
-	border-top: 2px solid #6582C0;
-	padding: 3%;
-	text-align: center;
-	background-color: none;
-}
-
-.caption {
-	font-size: 13px;
-	text-align: center;
-	width: 100%;
-	margin-top: -30px;
-	padding-top: 0;
-	z-index: 199;
-}
-
-
-.color {
-	font-family: 'f', serif;
-	color: rgb(32, 192, 102);
-	font-size: 27px;
-	line-height: 50px;
-}
-
-.small {
-	font-family: 'f', serif;
-	font-size: 14px;
-	line-height: 22px;
-	color: rgb(60, 148, 106);
-}
-
-.raised {
-	font-size: 27px;
-	line-height: 20px;
-	color: #6582C0;
-}
-
-@media only screen and (max-width: 910px) {
-	.container {
-		width: 91%;
-		left: 4%;
-		margin-left: 0;
-		margin-top: 20px;
-	}
-
-	body {
-		font-size: 15px;
-		line-height: 24px;
-	}
-
-	.box2, .box3 {
-		width: 94%;
-	}
-
-	.box3 {
-		margin-left: 0;
-	}
-
-	.small {
-		font-size: 12px;
-		line-height: 18px;
-	}
-
-	.color {
-		font-size: 17px;
-		line-height: 26px;
-	}
-
-	.header {
-		margin-top: -20px;
-	}
-	
-	.logo {
-		width: 170px;
-		margin-left: -32px;
-		margin-top: -20px;	
-	}
-
-	.headline {
-		margin-top: -40px;
-	}
-
-	.mark {
-		margin-left: -24px;
-		margin-bottom: -56px;
-	}
-
-	.caption {
-		font-size: 12px;
-		margin-top: -20px;
-}
-
-}
-
-::-moz-selection{ background: rgb(255, 73, 73); color:#111; text-shadow: none; }
-::selection { background: rgb(255, 73, 73); color:#111; text-shadow: none; } 
-
-
-</style>
-
- <link rel="shortcut icon" href="http://are.na/favicon.ico" type="image/x-icon">
-
-<body>
-    <div class="container">
-     	<div class="header">
-     		<img class="logo" src="images/arena-logo.svg">
-     		<div class="headline">Plans + Fundraising, August 2014<img class="mark" src="images/arena-logo.jpg"></div>
-     	</div>
-       <div class="box1"> 
-       	<a href="http://are.na">Arena</a> is a platform for private and collaborative research where you can save links, images, and files as "blocks" and organize them into named "channels." People use Arena to assemble <a target="_blank" href="http://x.are.na/GCQgAyj">references</a> around a topic, collect <a target="_blank" href="http://x.are.na/AoEiwhl">images</a> around a theme, share <a target="_blank" href="http://x.are.na/hjSvQrY">ideas</a> with collaborators, and <a target="_blank" href="http://x.are.na/QoIyTRo">more</a>. 
-       	<br><br>
-       	We built Arena in response to feeling overwhelmed by the mass of information presented to us daily on the Internet. We wanted a tool that could help us collect and sort information as it appears. Arena enables you to build ideas over time using any content you add or come across online. We like to think of Arena as an evolving archive where people collaboratively create new concepts by combining found and original material.
-		<br><br>
-
-       	Over the past two years, the platform has hosted a vibrant community of artists, designers, writers, educators, and researchers. We've studied the dynamics, gathered feedback from our users, and now we're ready to make Arena available to the public. 
-       	<br><br><br>
-       	<img style="padding-top: 0px; padding-bottom: 0px; border-left: 2px solid rgb(255, 73, 73);
-	border-right: 2px solid rgb(255, 73, 73); width: 111%; margin-left: -5.5%; opacity: 0.9; " src="images/arena-slide1-small.jpg">
-
-       	<br><br><br>
-       	We are currently retooling and refining the interface, streamlining around its core features. Toward the end of the year, we will introduce an unobtrusive revenue model, enabling Arena to be a sustainable business. Most likely we will offer paid accounts with a suite of premium features while keeping the current experience free.
-<br><br>
-
-       	In order to help us get there, we are raising a small round of funding in the form of rewarded donations. We've set our goal at $10,000, but we will accept any raised amount. We are committed to the project in any scenario. The funds from this campaign will allow us to work full-time through the public launch.<br><br>
-
-       	If you are interested in helping Arena grow, please consider making an investment:
-       	 </div>
-
-  	<br><br>
-
-
-    <a href="https://app.moonclerk.com/pay/1l38t8dqjdq">
-    	<div class="box2">
-       		<span class="color">Open Donation</span><br>
-			<span class="small">Any contribution will help us out.</span>
-       </div>
-   	</a>
-
-    <a href="https://app.moonclerk.com/pay/dpcrk1dwoqw">
-        <div class="box3">
-       	<span class="color">$90 - Credited Supporter</span><br>
-			<span class="small">You will be listed with a link as a supporter on Arena's about page and you'll have early access to beta versions and new features. </span>
-       </div>
-    </a>
-
-     <a href="https://app.moonclerk.com/pay/29pfnr4m8bl">
-        <div class="box4">
-       	<span class="color">$300 - Lifetime Membership</span><br>
-			<span class="small">No matter what premium model we are going to introduce, you will have free access to everything, forever. You will also be listed with a link on Arena's about page.</span>
-       </div>
-    </a>
-
-     <a href="https://app.moonclerk.com/pay/3b7pi8fe75o">
-        <div class="box6">
-       	<span class="color">$500 - Two Lifetime Memberships</span><br>
-			<span class="small">Same as above, you and a person of your choice will have free accesses to everything, forever. You will also be listed with a link on Arena's about page.</span>
-       </div>
-    </a>
-    <br>
-
-    	<span style="color:rgb(32, 192, 102);">Feel free also to contribute via <a style="color:rgb(32, 192, 102);border-bottom: 2px solid rgb(32, 192, 102);" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4HXHNDZKE9VR4" target="_blank">PayPal</a>. You will be rewarded for the amount you donate as per above.</span>
-	<br><br>
-	
-	<div class="box7">
-	<span class="raised">Raised so far: $4816</span>	
-	</div>
-
-       	<div class="box5">
-       	<span class="color" style="color: #111;">Principles</span><br>
-&#8226; We aim to build a flexible platform that helps people collect, discover, contextualize, and share information, publicly and privately.<br><br>
-&#8226; We don't dictate how people can or should use Arena. The platform is designed to support arbitrary applications.<br><br>
-&#8226; We want Arena to persist for as long as people want to use it. We're committed to building a sustainable business and retaining complete control of the platform.<br><br>
-&#8226; We take privacy seriously, as well as anonymity for those who want it. We will never share user data without explicit consent and we support users who want to keep their online persona separate from their personal life.<br><br>
-&#8226; We believe that advertisements are a conflict of interest. Arena will never show ads.<br><br>
-
-		<img style="padding-top: 0px; padding-bottom: 0px; border-left: 0px;
-	border-right: 0px; width: 120%; margin-left: -10%; opacity: 0.95; margin-bottom: 20px; " src="images/arena-mockup.jpg"><br>
-	<div class="caption">Next version of Arena under development</div><br>
-
-		<span class="color" style="color: #111;">Case studies</span><br>
-		Arena is regularly adopted by professionals to research and organize projects. Brick-and-mortar shops use it to manage inventory, art institutions use it to curate exhibitions, creative teams use it to share inspiration, and academics use it to collect references. For a sample, see the channel <a href="http://are.na/primer">Primer</a>.<br><br>
-        Our API can be used as a CMS and to experiment with new ways of presenting and interacting with content. Here's a <a target="_blank" href="http://x.are.na/JARkiab">selection</a> of public applications powered by Arena.<br><br>
-
-		<span class="color" style="color: #111;">Team</span><br> 
-		<a target="_blank" href="http://are.na/users/charles-broskoski">Charles Broskoski</a>
-		<span class="small"></span><br>
-		<a target="_blank" href="http://are.na/users/chris-sherron">Chris Sherron</a>
-		<span class="small"></span><br>
-		<a target="_blank" href="http://are.na/users/daniel-pianetti">Daniel Pianetti</a><br>
-		<a target="_blank" href="http://are.na/users/morgan-sutherland">Morgan Sutherland</a> 
-		<span class="small"></span><br><br>
-
-
-        <span class="color" style="color: #111;">Contact</span><br>
-        Feel free to contact us with any questions, comments, or requests (info@are.na). If you don't have an account, we encourage you to <a href="http://are.na">signup</a> (code: whenitchanged) to try Arena.<br><br>
-
-        <br>
-<!--
-        <iframe src="//player.vimeo.com/video/69893750?title=0&amp;byline=0&amp;portrait=0&amp;color=000&amp;autoplay=1&amp;loop=1" badge="none" byline="none" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br><br><br><br>
-   --> 
-      <a target="_blank" style="border: none;" href="http://x.are.na/SEmJuHb"><img style="width: 200px; margin-left: 33%;" src="images/arena-signature.jpg"></a>
-      <br><br><br>
-       </div>
-
-
-
-    </div>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-24572232-3', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-</body>
+      <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-24572232-3', 'auto');
+      ga('send', 'pageview');
+      </script>
+    </body>
